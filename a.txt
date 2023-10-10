@@ -1,0 +1,14 @@
+@bean
+public Class Game{
+	public void show(){
+		System.out.println("Total Score");
+	}
+	public int get(int number){
+		this.number = number;
+		return number;
+	}
+	public static void main(String[] args){
+		Game g = new Game();
+		g.show();
+		System.out.println(g.get(4));
+} 
